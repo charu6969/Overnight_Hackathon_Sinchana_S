@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+streamlit
+networkx
+plotly
+matplotlib
+joblib # Added for model saving/loading
