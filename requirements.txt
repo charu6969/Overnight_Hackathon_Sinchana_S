@@ -1,8 +1,21 @@
-pandas
-numpy
-scikit-learn
-streamlit
-networkx
-plotly
-matplotlib
-joblib # Added for model saving/loading
+# FraudSight PRO - Windows Compatible Requirements
+# Optimized for Python 3.13 on Windows
+
+# Core Data Science
+numpy>=1.26.0
+pandas>=2.1.0
+
+# Visualization
+streamlit>=1.29.0
+plotly>=5.18.0
+matplotlib>=3.8.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Graph Analysis
+networkx>=3.2.0
+
+# Note: If you still get errors, use this command instead:
+# pip install --only-binary :all: -r requirements.txt
